@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alex-kostiuchenko.github.io/sitemap.xml

@@ -1,0 +1,61 @@
+/* PLACE YOUR CUSTOM STYLES IN THIS FILE */
+/* scroll bar */
+* {scrollbar-color: #7eb04a #252525;  scrollbar-width: thin;}
+::-webkit-scrollbar-track {background: #252525;}
+::-webkit-scrollbar-thumb {background: #7eb04a;}
+::-webkit-scrollbar {width: 0.5rem;}
+/* END scroll bar */
+
+
+
+/* color & weight selection for text */
+
+.gold {
+	color: #9cd95c !important;
+}
+
+.gold:hover {
+	text-decoration: none;
+	cursor: auto;
+	pointer-events: none !important;
+	user-select: none;
+}
+
+.white {
+	color: #fff !important;
+}
+
+.white:hover {
+	text-decoration: none;
+	cursor: auto;
+}
+
+
+ul.without-markers {
+	list-style-type: none;
+}
+
+
+.bold {
+	font-weight: bold;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+/* END color & weight selection for text */
+
+/* Fix: burger menu icon invisible on dark navbar pages (color matched background) */
+.nk-navbar.nk-navbar-dark .nk-icon-burger {
+	color: #fff;
+}
+/* END burger menu fix */
+
+
+/* Fix: permanent dark body background (theme default is light #f6f6f6,
+   which shows through the sticky-nav spacer div while scrolling) */
+body {
+	background-color: #1c1c1c !important;
+}
+/* END dark body background fix */
